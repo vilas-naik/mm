@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.wrapper{
+    height: 100dvh;
+    width: 100dvw;
+}
+#bg{
+    z-index: -5;
+}
+#layer2{
+    z-index: -4;
+}
+#layer1{
+    z-index: -3;
+}
+#front{
+    z-index: -2;
+}
